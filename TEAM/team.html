@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Our Tech Team - Young Innovators Wanted!</title>
+    <link rel="stylesheet" href="team.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="hero-section">
+        <div class="curve-bg"></div>
+        <h1 class="main-title">🚀 Join Our Tech Revolution!</h1>
+        <p class="subtitle">Calling All Young Tech Innovators (Ages 14-18)</p>
+        <div class="glow-effect"></div>
+      </header>
+
+      <main class="content">
+        <section class="intro-section">
+          <h2>Ready to Level Up Your Tech Skills? 💻</h2>
+          <p>
+            We're building the next generation of tech leaders, and we want YOU
+            on our team! If you're passionate about technology and ready to make
+            a real impact, this is your moment.
+          </p>
+        </section>
+
+        <section class="skills-section">
+          <h3>Skills We're Looking For:</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <span class="skill-icon">🎨</span>
+              <h4>Canva Design</h4>
+              <p>Create stunning graphics and visual content</p>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">💻</span>
+              <h4>Web Development</h4>
+              <p>HTML, CSS, JavaScript - bring ideas to life</p>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">📱</span>
+              <h4>Mobile Apps</h4>
+              <p>iOS, Android, or cross-platform development</p>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">🤖</span>
+              <h4>AI & Machine Learning</h4>
+              <p>Python, data science, and emerging tech</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="team-section">
+          <h3>Meet Our Leadership Team</h3>
+          <div class="team-grid">
+            <div class="team-card">
+              <div class="team-avatar">👨‍💼</div>
+              <h4>Kelvin</h4>
+              <p class="role">Chief Executive Officer</p>
+              <p>"Empowering young minds to shape the future of technology."</p>
+            </div>
+            <div class="team-card">
+              <div class="team-avatar">👨‍💻</div>
+              <h4>Ismail</h4>
+              <p class="role">Chief Financial Officer</p>
+              <p>"Investing in the next generation of tech innovators."</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta-section">
+          <div class="cta-card">
+            <h3>Ready to Start Your Tech Journey?</h3>
+            <p>Don't wait - opportunities like this don't come around often!</p>
+            <div class="contact-info">
+              <p class="phone-number">
+                📞 Call us now: <strong>09129129955</strong>
+              </p>
+              <p class="age-requirement">✨ Ages 14-18 only</p>
+            </div>
+            <button class="cta-button">Apply Now!</button>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          &copy; 2025 Tech Innovators. Building the future, one young developer
+          at a time.
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      // Add some interactive elements
+      document.addEventListener("DOMContentLoaded", function () {
+        const button = document.querySelector(".cta-button");
+        const skillCards = document.querySelectorAll(".skill-card");
+
+        button.addEventListener("click", function () {
+          alert(
+            "Great! Please call us at 09129129955 to get started on your tech journey!"
+          );
+        });
+
+        // Add hover animations to skill cards
+        skillCards.forEach((card) => {
+          card.addEventListener("mouseenter", function () {
+            this.style.transform = "translateY(-10px) scale(1.05)";
+          });
+
+          card.addEventListener("mouseleave", function () {
+            this.style.transform = "translateY(0) scale(1)";
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
